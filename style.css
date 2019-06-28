@@ -1,0 +1,32 @@
+body{
+    background: #352f5b;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
+    cursor: pointer;
+  }
+
+  .badge-info{
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: 100;
+  }
+
+  .fa-plus-circle{
+    margin-top: -25px;
+    float: right;
+    margin-right: 9px;
+    color: #423a6f;
+  }
